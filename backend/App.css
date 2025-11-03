@@ -1,0 +1,10 @@
+.message-input {
+  flex: 1;
+  padding: var(--spacing-md) var(--spacing-lg);
+  border: 2px solid var(--gray-300);
+  border-radius: var(--radius-lg);
+  font-size: 1rem;
+  color: #111827;
+  transition: all var(--transition-fast);
+  background: white;
+}

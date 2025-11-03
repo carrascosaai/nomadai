@@ -1,29 +1,17 @@
 {
-  "name": "frontend",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "nomadai-backend",
+  "version": "2.0.0",
+  "description": "Backend API for NomadAI with 200+ airports",
+  "main": "server.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "start": "node server.js"
   },
   "dependencies": {
-    "axios": "^1.13.1",
-    "lucide-react": "^0.548.0",
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "axios": "^1.6.0"
   },
-  "devDependencies": {
-    "@eslint/js": "^9.36.0",
-    "@types/react": "^19.1.16",
-    "@types/react-dom": "^19.1.9",
-    "@vitejs/plugin-react": "^5.0.4",
-    "eslint": "^9.36.0",
-    "eslint-plugin-react-hooks": "^5.2.0",
-    "eslint-plugin-react-refresh": "^0.4.22",
-    "globals": "^16.4.0",
-    "vite": "^7.1.7"
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
